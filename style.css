@@ -1,0 +1,73 @@
+/* Gobal Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:aliceblue;
+}
+
+header,
+nav, 
+main,
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color:black;
+    color:aliceblue; 
+}
+
+nav {
+    background-color:#4a90e2;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    min-height: 300px;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Medium */
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 900px) {
+    main {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* Extra Large */
+@media screen and (min-width: 1200px) {
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
